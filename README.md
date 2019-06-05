@@ -25,7 +25,7 @@ All URIs are relative to *https://api.postmon.com.br/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultAPI* | [**getCEPData**](docs/DefaultAPI.md#getcepdata) | **GET** /cep | Retorna os dados do endereço para o CEP passado
+*DefaultAPI* | [**getCEPData**](docs/DefaultAPI.md#getcepdata) | **GET** /cep/{cep} | Retorna os dados do endereço para o CEP passado
 
 
 ## Documentation For Models

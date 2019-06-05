@@ -26,13 +26,13 @@ open class DefaultAPI {
 
     /**
      Retorna os dados do endereço para o CEP passado
-     - GET /cep
+     - GET /cep/{cep}
      - Retorna os dados do endereço para o CEP passado. CEP deve ser enviado no formato de 8 dígitos.
      - parameter cep: (path) Valor do CEP com apenas os 8 digitos. 
      - returns: RequestBuilder<CEPResponse> 
      */
     open class func getCEPDataWithRequestBuilder(cep: String) -> RequestBuilder<CEPResponse> {
-        var path = "/cep"
+        var path = "/cep/{cep}"
         let cepPreEscape = "\(APIHelper.mapValueToPathItem(cep))"
         let cepPostEscape = cepPreEscape.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed) ?? ""
         path = path.replacingOccurrences(of: "{cep}", with: cepPostEscape, options: .literal, range: nil)

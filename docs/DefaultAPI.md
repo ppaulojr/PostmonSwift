@@ -4,7 +4,7 @@ All URIs are relative to *https://api.postmon.com.br/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getCEPData**](DefaultAPI.md#getcepdata) | **GET** /cep | Retorna os dados do endereço para o CEP passado
+[**getCEPData**](DefaultAPI.md#getcepdata) | **GET** /cep/{cep} | Retorna os dados do endereço para o CEP passado
 
 
 # **getCEPData**

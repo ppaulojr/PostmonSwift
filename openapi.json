@@ -9,7 +9,7 @@
         "url" : "https://api.postmon.com.br/v1/"
     } ],
     "paths" : {
-        "/cep" : {
+        "/cep/{cep}" : {
             "get" : {
                 "summary" : "Retorna os dados do endereço para o CEP passado",
                 "description" : "Retorna os dados do endereço para o CEP passado. CEP deve ser enviado no formato de 8 dígitos.",
