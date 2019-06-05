@@ -4,7 +4,7 @@
 
 ## Build generated
 build/
-DerivedData/
+DerivedData
 
 ## Various settings
 *.pbxuser
@@ -26,8 +26,6 @@ xcuserdata
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
-*.dSYM.zip
-*.dSYM
 
 ## Playgrounds
 timeline.xctimeline
